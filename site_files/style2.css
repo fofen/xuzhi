@@ -1,0 +1,74 @@
+/*
+ Theme Name:   Twenty Twenty Child
+ Description:  Twenty Twenty Child Theme
+ Author:       Fofen Leng
+ Template:     twentytwenty
+ Text Domain:  twentytwenty-child
+*/
+
+h1, .heading-size-1 {
+    font-size: 2.6rem;
+}
+h1.entry-title-expired {
+        margin-top: 12px;
+}
+
+.type-post h1.entry-title:before {
+    content:"姓名：";
+    font-weight: 60;
+}
+.type-post h1.entry-title-expired:after {
+    content:"：请续费";
+    font-weight: 60;
+}
+.singular .entry-header {
+    padding: 2rem 0;
+}
+
+.header-inner {
+        padding: .8rem 0;
+}
+
+.post-inner {
+    padding-top: 4rem;
+}
+
+.toggle-text {
+        display: none;
+}
+.update-time,
+.post-last-modified
+ {
+        color: #E32658;
+        font-weight: 0 !important;
+        text-align: center;
+}
+
+.entry-content p, ol {
+        font-weight: 300;
+        font-family: "Noto Sans SC", "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-seri>
+}
+
+.footer-top-hidden #site-footer {
+    margin-top: 4rem;
+}
+
+#site-footer div.section-inner{
+        margin-bottom: -18px;
+}
+
+.beian, .footer-copyright {
+        text-decoration:none;
+        color: black;
+        font-size: 0.8em;
+        font-weight: 60;
+}
+
+.xufei {
+	text-align: center;
+	color: #E32658;
+}
+
+.singular .entry-header {
+	padding-bottom: 4rem;
+}
